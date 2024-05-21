@@ -4,12 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "groq-sdk": "^0.3.3"
+    "express": "^4.19.2",
+    "groq-sdk": "^0.3.3",
+    "nodemon": "^3.1.0"
   }
 }
